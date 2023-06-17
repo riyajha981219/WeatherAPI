@@ -5,7 +5,6 @@
 The following packages were used:
 - express
 - dotenv
-- nodemon
 
 This file uses AccuWeather API to get necessary data.
 
