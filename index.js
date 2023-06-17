@@ -4,7 +4,7 @@ const dotenv = require('dotenv').config();
 
 
 const app = express();
-const apiKey = process.env['API_KEY']; // Replace with your actual AccuWeather API key
+const apiKey = process.env['API_KEY'];
 
 app.get('/weather/:city', async (req, res) => {
   try {
